@@ -1,0 +1,6 @@
+[submodule "external/the-algorithms/c"]
+	path = external/the-algorithms/c
+	url = https://github.com/TheAlgorithms/C.git
+[submodule "external/the-algorithms/cpp"]
+	path = external/the-algorithms/cpp
+	url = https://github.com/TheAlgorithms/C-Plus-Plus.git
