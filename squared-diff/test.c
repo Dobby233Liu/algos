@@ -12,7 +12,7 @@ TEST {
     UNIT(201) {
       TEST_ETIME {
         VOID(SQD(128, 64))
-      }
+      } TEST_ETIME_END
     }
     UNIT(202) {
       TEST_ETIME {
