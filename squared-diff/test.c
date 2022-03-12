@@ -9,13 +9,15 @@ TEST {
     assert (SQD(100, 30) == SQD_SLOW(100, 30));
   }
   UNIT(2) {
-    UNIT(201)
-    TEST_ETIME {
-      VOID(SQD(128, 64))
+    UNIT(201) {
+      TEST_ETIME {
+        VOID(SQD(128, 64))
+      }
     }
-    UNIT(202)
-    TEST_ETIME {
-      VOID(SQD_SLOW(128, 64))
-    } TEST_ETIME_END
+    UNIT(202) {
+      TEST_ETIME {
+        VOID(SQD_SLOW(128, 64))
+      } TEST_ETIME_END
+    }
   }
 }
