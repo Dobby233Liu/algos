@@ -16,6 +16,6 @@ TEST {
     UNIT(202)
     TEST_ETIME {
       VOID(SQD_SLOW(128, 64))
-    }
+    } TEST_ETIME_END
   }
 }
