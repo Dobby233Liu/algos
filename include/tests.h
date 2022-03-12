@@ -3,15 +3,18 @@
 
 #pragma clang diagnostic ignored "-Wunused-value"
 
-#define TEST int main () { \
-      printf ("START OF TEST");
-#define END_TEST printf("\nTest finished - Good job!\nEND OF TEST\n"); \
-        return 0; \
-      }
+void test();
+
+#define TEST void test()
 
 #define UNIT(n) printf("\nUnit %d\n", n);
 #define UNIT_END \
-      printf("\nOK\n");
+      printf("\nOK\n\n");
 
 #define VOID(P) (P);
 #define UNUSED VOID
+
+int main() {
+      test();
+      return 0;
+}
